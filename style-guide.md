@@ -22,7 +22,6 @@ Very Pale Red: hsl(13, 100%, 96%)
 Vary Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
-
 ### Body Copy
 
 - Font size: 16px

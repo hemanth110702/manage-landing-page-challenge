@@ -1,0 +1,112 @@
+:root {
+  --clr-bright-red : hsl(12, 88%, 59%);
+  --clr-dark-blue : hsl(228, 39%, 23%);
+  --clr-dark-grayish-blue : hsl(227, 12%, 61%);
+  --clr-very-dark-blue : hsl(233, 12%, 13%);
+  --clr-very-pale-red : hsl(13, 100%, 96%);
+  --clr-very-light-gray : hsl(0, 0%, 98%);
+  --fw-400 : 400;
+  --fw-500 : 500;
+  --fw-700 : 700;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding : 0;
+  border: 2px solid orange;
+}
+
+header {
+  width : 75%;
+  height : 8rem;
+  margin : auto;
+  padding: 0rem 1rem;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.logo > img {
+  padding-top: 0.8rem;
+  height: 1.3rem;
+}
+
+.navigation {
+  width: 40%;
+  font-weight: var(--fw-400);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ font-size: 0.8rem;
+}
+
+.intro {
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-left {
+  width: 45%;
+  padding-top: 4rem;
+}
+
+.heading{
+  color: var(--clr-dark-blue);
+  font-size: 2.7rem;
+  line-height: 2.8rem;
+  letter-spacing: -1px;
+  word-spacing: 4px;
+  font-weight: var(--fw-700);
+}
+
+.low-space {
+  letter-spacing: -3.8px;
+}
+
+.intro-content {
+  max-width: 32ch;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: var(--fw-400);
+}
+
+
+.intro-right {
+  width: 47%;
+  padding-top: 1rem;
+  position : relative;
+}
+
+.bg-tablet { 
+  height: 120%;
+  position: absolute;
+  left: 12%;
+  top: -45%;
+  z-index: -1;
+}
+
+.bar-graphs {
+  height: 85%;
+}
+
+.features {
+  width: 75%;
+  margin: auto;
+  padding: 0rem 1rem;
+  display: flex;
+  
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
