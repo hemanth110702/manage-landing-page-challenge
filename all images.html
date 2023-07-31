@@ -1,19 +1,42 @@
-<body style="background-color: black;">
-  <img width="100" height="100" src="images/avatar-ali.png" alt="">
-  <img width="100" height="100" src="images/avatar-anisha.png" alt="">
-  <img width="100" height="100" src="images/avatar-richard.png" alt="">
-  <img width="100" height="100" src="images/avatar-shanai.png" alt="">
-  <img width="100" height="100" src="images/bg-simplify-section-desktop.svg" alt="">
-  <img width="100" height="100" src="images/bg-simplify-section-mobile.svg" alt="">
-  <img width="100" height="100" src="images/bg-tablet-pattern.svg" alt="">
-  <img width="100" height="100" src="images/favicon-32x32.png" alt="">
-  <img width="100" height="100" src="images/icon-close.svg" alt="">
-  <img width="100" height="100" src="images/icon-facebook.svg" alt="">
-  <img width="100" height="100" src="images/icon-hamburger.svg" alt="">
-  <img width="100" height="100" src="images/icon-instagram.svg" alt="">
-  <img width="100" height="100" src="images/icon-pinterest.svg" alt="">
-  <img width="100" height="100" src="images/icon-twitter.svg" alt="">
-  <img width="100" height="100" src="images/icon-youtube.svg" alt="">
-  <img width="100" height="100" src="images/illustration-intro.svg" alt="">
-  <img width="100" height="100" src="images/logo.svg" alt="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      width: 300px;
+      background-color: red;
+
+    }
+    .container {
+      display: grid;
+      grid-template-areas: 
+          "ser1 fun1"
+          "con1 con1";
+    }
+    .ser1 {
+      grid-area: ser1;
+    }
+    .fun1 {
+      grid-area: fun1;
+    }
+    .con1 {
+      grid-area: con1;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="ser1">Hello</div>
+    <div class="serial con1">
+      <div class="fun1">content</div>
+      <div class="con1">this is the content Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eaque suscipit blanditiis voluptatibus. Commodi praesentium ea eum tenetur libero dolor doloribus ipsum a impedit, quo eius natus aliquid esse eaque?</div>
+    </div>
+  </div>
+  
 </body>
+</html>

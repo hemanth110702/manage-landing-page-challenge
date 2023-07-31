@@ -165,14 +165,29 @@ header {
 
 .features-right {
   width: 47%;
-  display: grid;
-  grid-template-columns: 4rem auto;
-  grid-template-rows: 50px 50x 50px; 
-  column-gap: 2rem;
 }
 
-.serial-content, .serial {
-  margin-bottom: 2rem; 
+.serial-content {
+  display: grid;
+  grid-template-columns: 4rem auto;
+  grid-template-rows: 50px 50x 50px;
+  grid-template-areas: 
+      "ser fun"
+      ". con"; 
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.ser {
+  grid-area: ser;
+}
+
+.fun {
+  grid-area: fun;
+}
+
+.con {
+  grid-area: con;
 }
 
 .serial span{
@@ -437,4 +452,9 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%); 
+}
+
+
+.ham, .close {
+  display: none;
 }
