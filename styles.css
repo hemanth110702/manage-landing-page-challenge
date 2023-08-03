@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+.dv-none {
+  display: none;
+}
+
 header {
   width : 80%;
   height : 8rem;

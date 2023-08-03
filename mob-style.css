@@ -4,8 +4,13 @@
     display: inline-block;
   }
 
-  .none {
+  .none,.mv-none {
     display: none;
+  }
+
+  .dv-none {
+    display: block;
+    margin: auto auto;
   }
 
 
@@ -51,14 +56,12 @@
     grid-template-areas: 
             'bar-graphs'
             'heading';
-    border: 2px solid green;
     row-gap: 1.5rem;
   }
   
   .intro-left {
     width: 100%;
     grid-area: heading;
-    border: 2px solid green;
     height: 50%;
     text-align: center;
   }
@@ -101,7 +104,6 @@
   
   
   .intro-right {
-    border: 2px solid red;
     padding-top: 1rem;
     position : relative;
     grid-area: bar-graphs;
@@ -372,7 +374,6 @@
   }
   
   .more-info {
-    border: 2px solid green;
     height: 60vh;
     color: white;
     background-color: var(--clr-very-dark-blue);
@@ -407,9 +408,10 @@
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     justify-self: center;
+    row-gap: 1.5rem;
   }
   
   .more-info-logo > img {
