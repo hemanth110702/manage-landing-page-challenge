@@ -37,24 +37,25 @@ header {
 }
 
 .logo > img {
-  padding-top: 0.8rem;
   height: 1.3rem;
+  padding-top: 0.8rem;
 }
 
 .navigation {
   width: 40%;
   font-weight: var(--fw-400);
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.8rem;
 }
 
 .navigation div {
-  cursor: pointer;
   color: var(--clr-dark-blue);
+  cursor: pointer;
   transition: color 0.2s;
 }
+
 .navigation div:hover {
   color: var(--clr-dark-grayish-blue);
 }
@@ -74,12 +75,12 @@ header {
 }
 
 .heading{
-  color: var(--clr-dark-blue);
   font-size: 2.7rem;
-  line-height: 2.8rem;
-  letter-spacing: -1.5px;
-  word-spacing: 4px;
   font-weight: var(--fw-700);
+  letter-spacing: -1.5px;
+  line-height: 2.8rem;
+  word-spacing: 4px;
+  color: var(--clr-dark-blue);
 }
 
 .low-space {
@@ -88,24 +89,24 @@ header {
 
 .intro-content {
   max-width: 32ch;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
   font-size: 0.8rem;
   font-weight: var(--fw-400);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   color: var(--clr-dark-grayish-blue);
 }
 
 .start-btn {
-  border: none;
-  background-color: var(--clr-bright-red);
   padding: 10px 26px;
-  border-radius: 18px;
   font-size: 0.7rem;
-  color: white;
-  cursor: pointer;
   font-weight: var(--fw-700);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  background-color: var(--clr-bright-red);
   box-shadow: 0px 6px 10px hsla(12, 88%, 59%, 0.3) ;
   transition: opacity 0.2s;
+  cursor: pointer;
 }
 
 .start-btn:hover {
@@ -134,8 +135,8 @@ header {
 .features {
   width: 80%;
   height: 80vh;
-  margin-inline: auto;
   padding: 3rem 0rem;
+  margin-inline: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -170,10 +171,10 @@ header {
 
 .features-content {
   max-width: 34ch;
-  margin-top: 1.5rem;
   font-size: 0.8rem;
   font-weight: var(--fw-400);
   color: var(--clr-dark-grayish-blue);
+  margin-top: 1.5rem;
 }
 
 .features-right {
@@ -181,6 +182,7 @@ header {
 }
 
 .serial-content {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 4rem auto;
   grid-template-rows: 50px 50x 50px;
@@ -188,7 +190,6 @@ header {
       "ser fun"
       ". con"; 
   column-gap: 2rem;
-  margin-top: 2rem;
 }
 
 .ser {
@@ -204,11 +205,10 @@ header {
 }
 
 .serial span{
-  background-color: var(--clr-bright-red);
   padding: 10px 25px;
   border-radius: 20px;
   color: white;
-
+  background-color: var(--clr-bright-red);
 }
 
 .function-heading {
@@ -223,25 +223,25 @@ header {
   max-width: 42ch;
   margin-top: 1.5rem;
   font-size: 0.8rem;
-  color: var(--clr-dark-grayish-blue);
   font-weight: var(--fw-400);
+  color: var(--clr-dark-grayish-blue);
 }
 
 .feedback {
   height: 90vh;
+  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .feedback-top {
   width: 80%;
-  text-align: center;
   padding: 0.5rem 0rem;
   font-size: 2rem;
   font-weight: var(--fw-700);
+  text-align: center;
   letter-spacing: -0.5px;
   word-spacing: 2px;
   color: var(--clr-dark-blue);
@@ -267,24 +267,24 @@ header {
 }
 
 .profile {
+  position: relative;
   min-width: 38%;
-  display: flex;
   margin-right: 1.5rem;
+  background-color: var(--clr-very-light-gray); 
+  list-style: none;
+  text-align: center;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  list-style: none;
-  background-color: var(--clr-very-light-gray); 
-  position: relative;
 }
 
 .profile-img {
+  height: 4rem;
   position: absolute;
   top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 4rem;
 }
 
 .profile-name {
@@ -305,8 +305,8 @@ header {
 
 .feedback-bottom {
   width: 80%;
-  text-align: center;
   margin-top: -4rem;
+  text-align: center;
 }
 
 footer {
@@ -329,21 +329,20 @@ footer {
 }
 
 .highlight-left > img {
+  height: 30rem;
   position: absolute;
   left: -10%;
   top: -20%;
-  height: 30rem;
   z-index:0;
   opacity: 0.1;
 }
 
 .highlight-content {
   max-width: 20ch;
-  color: white;
-  align-self: center;
   font-size: 1.8rem;
   font-weight: var(--fw-500);
   letter-spacing: -0.5px;
+  color: white;
   align-self: center;
 }
 
@@ -358,23 +357,23 @@ footer {
 }
 
 .highlight-btn > img {
+  height: 30rem;
   position: absolute;
   opacity: 0.1;
-  height: 30rem;
   bottom: 10%;
   left: 30%;
 }
 
 .start-btn-opp {
-  background-color: white;
-  align-self: center;
-  border: none;
+  margin-top: 1rem;
   padding: 10px 26px;
+  border: none;
   border-radius: 18px;
   font-size: 0.7rem;
-  color: var(--clr-bright-red);
-  margin-top: 1rem;
   font-weight: var(--fw-700);
+  background-color: white;
+  color: var(--clr-bright-red);
+  align-self: center;
   box-shadow: 0px 3px 10px var(--clr-bright-red);
   cursor: pointer;
   transition: opacity 0.2s;
@@ -386,9 +385,9 @@ footer {
 
 .more-info {
   height: 23vh;
+  padding: 3rem 9rem;
   color: white;
   background-color: var(--clr-very-dark-blue);
-  padding: 3rem 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -411,7 +410,6 @@ footer {
   margin-right: 0.5rem;
   cursor: pointer;
 }
-
 
 .social-icon:hover {
   filter: invert(40%) sepia(71%) saturate(848%) hue-rotate(333deg) brightness(103%) contrast(90%);
@@ -462,21 +460,19 @@ footer {
 }
 
 .error-msg {
-  color: var(--clr-bright-red);
-  margin: 0;
+  margin: 10px;
   font-size: 10px;
   font-style: italic;
-  margin: 10px;
+  color: var(--clr-bright-red);
 }
 
-
 .go {
+  margin-left: 2px;
+  padding: 10px 20px;
   border: none;
+  border-radius: 18px;
   background-color: var(--clr-bright-red);
   color: white;
-  padding: 10px 20px;
-  border-radius: 18px;
-  margin-left: 2px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -485,14 +481,12 @@ footer {
   background-color: lightcoral;
 }
 
-
-
 .copyright {
-  justify-self: flex-start;
-  align-self: flex-end;
   font-size: 0.8rem;
   font-weight: var(--fw-400);
   color: var(--clr-dark-grayish-blue);
+  justify-self: flex-start;
+  align-self: flex-end;
 }
 
 .attribution {
@@ -502,7 +496,6 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%); 
 }
-
 
 .ham, .close {
   display: none;
