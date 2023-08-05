@@ -52,7 +52,6 @@ function validateEmail() {
   const errorMsg = document.querySelector('#errorMsg');
   const emailValue = emailInput.value.trim();
 
-  // Regular expression for validating email format
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (emailValue === '' || !emailRegex.test(emailValue)) {
@@ -61,6 +60,5 @@ function validateEmail() {
   } else {
     errorMsg.style.display = 'none';
     emailInput.value = "";
-    // Perform other actions when the email is valid, e.g., submit the form.
   }
 }

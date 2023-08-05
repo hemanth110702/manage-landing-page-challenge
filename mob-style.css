@@ -1,5 +1,10 @@
 @media screen and (max-width: 475px) {
 
+  main {
+    overflow-x: hidden;
+  }
+
+
   .ham, .close {
     display: inline-block;
   }
@@ -119,6 +124,7 @@
   .flex {
     display: flex;
   }
+
 
   .mob-navigation div {
     margin: 0.5rem 0;
