@@ -43,3 +43,24 @@ function rmvPrfActive() {
     allProfile[index].classList.remove('active');
   });
 }
+
+
+/* email validation */
+
+function validateEmail() {
+  const emailInput = document.querySelector('#emailInput');
+  const errorMsg = document.querySelector('#errorMsg');
+  const emailValue = emailInput.value.trim();
+
+  // Regular expression for validating email format
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (emailValue === '' || !emailRegex.test(emailValue)) {
+    errorMsg.textContent = 'Please insert a valid email.';
+    errorMsg.style.display = 'block';
+  } else {
+    errorMsg.style.display = 'none';
+    emailInput.value = "";
+    // Perform other actions when the email is valid, e.g., submit the form.
+  }
+}

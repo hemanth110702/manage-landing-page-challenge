@@ -182,11 +182,11 @@
           <img src="images/logo-2.svg" alt="">
         </div>
         <div class="more-info-icons">
-          <img src="images/icon-facebook.svg" alt="">
-          <img src="images/icon-youtube.svg" alt="">
-          <img src="images/icon-twitter.svg" alt="">
-          <img src="images/icon-pinterest.svg" alt="">
-          <img src="images/icon-instagram.svg" alt="">
+          <img class="social-icon" src="images/icon-facebook.svg" alt="">
+          <img class="social-icon" src="images/icon-youtube.svg" alt="">
+          <img class="social-icon" src="images/icon-twitter.svg" alt="">
+          <img class="social-icon" src="images/icon-pinterest.svg" alt="">
+          <img class="social-icon" src="images/icon-instagram.svg" alt="">
         </div>
       </div>
       <div class="more-info-middle mid">
@@ -204,8 +204,9 @@
       </div>
       <div class="more-info-right up">
         <div class="mail-to">
-          <input type="text" class="inp" placeholder="Updates in your inbox…">
-          <button class="go">Go</button>
+          <input type="email" class="inp" id="emailInput" placeholder="Updates in your inbox…">
+          <button class="go" onclick="validateEmail()">Go</button>
+          <p class="error-msg" id="errorMsg"></p>
         </div>
         <div class="copyright mv-none">
           Copyright 2020. All Rights Reserved

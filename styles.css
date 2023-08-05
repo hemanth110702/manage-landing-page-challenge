@@ -53,6 +53,10 @@ header {
 .navigation div {
   cursor: pointer;
   color: var(--clr-dark-blue);
+  transition: color 0.2s;
+}
+.navigation div:hover {
+  color: var(--clr-dark-grayish-blue);
 }
 
 .intro {
@@ -101,6 +105,11 @@ header {
   cursor: pointer;
   font-weight: var(--fw-700);
   box-shadow: 0px 6px 10px hsla(12, 88%, 59%, 0.3) ;
+  transition: opacity 0.2s;
+}
+
+.start-btn:hover {
+  opacity: 0.6;
 }
 
 
@@ -366,9 +375,14 @@ footer {
   font-size: 0.7rem;
   color: var(--clr-bright-red);
   margin-top: 1rem;
-  cursor: pointer;
   font-weight: var(--fw-700);
   box-shadow: 0px 3px 10px var(--clr-bright-red);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.start-btn-opp:hover {
+  opacity: 0.7;
 }
 
 .more-info {
@@ -399,6 +413,11 @@ footer {
   cursor: pointer;
 }
 
+
+.social-icon:hover {
+  filter: invert(40%) sepia(71%) saturate(848%) hue-rotate(333deg) brightness(103%) contrast(90%);
+}
+
 .more-info-middle {
   height: 100%;
   width: 35%;
@@ -412,6 +431,11 @@ footer {
   margin: 0.8rem;
   color: var(--clr-very-light-gray);
   cursor: pointer;
+  transition: color 0.2s;
+}
+
+.middle-nav:hover {
+  color: var(--clr-bright-red);
 }
 
 
@@ -430,7 +454,22 @@ footer {
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
+  outline: none;
 }
+
+.inp:invalid {
+  border: 2px solid var(--clr-bright-red);
+  color: var(--clr-bright-red);
+}
+
+.error-msg {
+  color: var(--clr-bright-red);
+  margin: 0;
+  font-size: 10px;
+  font-style: italic;
+  margin: 10px;
+}
+
 
 .go {
   border: none;
@@ -440,7 +479,14 @@ footer {
   border-radius: 18px;
   margin-left: 2px;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
+
+.go:hover {
+  background-color: lightcoral;
+}
+
+
 
 .copyright {
   justify-self: flex-start;
