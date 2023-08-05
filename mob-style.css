@@ -21,7 +21,7 @@
 
   header { 
     width : 80%;
-    height: 2rem;
+    height: 1rem;
     height : 8rem;
     margin : auto;
     padding: 0rem 1rem;
@@ -49,14 +49,23 @@
     grid-template-areas: 
             'bar-graphs'
             'heading';
-    row-gap: 1.5rem;
+    row-gap: 4.5rem;
   }
   
   .intro-left {
     width: 100%;
     grid-area: heading;
     height: 50%;
+    position: relative;
     text-align: center;
+  }
+
+  .bg-small-tablet {
+    position: absolute;
+    height: 130%;
+    right: -60%;
+    bottom: -80%;
+    z-index: -3; 
   }
   
   .heading{
@@ -73,7 +82,7 @@
   }
   
   .intro-content {
-    max-width: 32ch;
+    max-width: 30ch;
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
@@ -98,6 +107,8 @@
   
   .intro-right {
     padding-top: 1rem;
+    display: flex;
+    justify-content: center;
     position : relative;
     grid-area: bar-graphs;
     width: 100%;
@@ -133,25 +144,26 @@
   .bg-tablet { 
     height: 250%;
     position: absolute;
-    left: 15%;
-    top: -130%;
+    left: 10%;
+    top: -120%;
     z-index: -1;
   }
   
   .bar-graphs {
-    height: 160%;
+    height: 180%;
   }
   
   .features {
     width:100%;
     height: 100%;
     margin-inline: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 2rem;
+    row-gap: 0.5rem;
   }
   
   .features-left {
@@ -160,9 +172,19 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   
+  .features-left > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   .features-left > img {
     height: 115%;
     position: absolute;
@@ -172,11 +194,16 @@
   }
   
   .features-heading {
+    width: 100%;
+    margin-right: 0;
     font-size: 1.7rem;
     font-weight: var(--fw-700);
     letter-spacing: -0.5px;
     word-spacing: 2px;
     color: var(--clr-dark-blue);
+    max-width: 12ch;
+    text-align: center;
+    margin: 0;
   }
   
   .features-heading >span {
@@ -210,6 +237,8 @@
   .ser {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     grid-area: ser;
     background-color: var(--clr-very-pale-red);
     height: 14px;
@@ -256,12 +285,13 @@
   }
   
   .feedback {
-    height: 65vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+    row-gap: 0rem;
   }
   
   .feedback-top {
@@ -277,14 +307,11 @@
   
   .feedback-middle-container {
     height: 24rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   
   .feedback-middle {
-    margin: auto 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,6 +367,10 @@
     color: var(--clr-dark-grayish-blue);
   }
 
+  .feedback-nav {
+    margin-bottom: 2rem;
+  }
+
   .feedback-nav button{
     padding: 3px;
     border-radius: 10px;
@@ -353,7 +384,6 @@
   .feedback-bottom {
     width: 80%;
     text-align: center;
-    margin-top: -4rem;
   }
   
   footer {
@@ -367,7 +397,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 0rem;
-    height: 60vh;
+    height: 60%;
     background-color: var(--clr-bright-red);
     overflow: hidden;
   }
@@ -412,7 +442,7 @@
   }
   
   .more-info {
-    height: 60vh;
+    height: 100%;
     color: white;
     background-color: var(--clr-very-dark-blue);
     padding: 0;
@@ -450,6 +480,7 @@
     align-items: center;
     justify-self: center;
     row-gap: 1.5rem;
+    margin-top: 0;
   }
   
   .more-info-logo > img {
@@ -473,6 +504,7 @@
     display: flex;
     justify-content: space-around;
     justify-self: center;
+    height: fit-content;
   }
   
   .middle-nav {
@@ -496,6 +528,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 1.5rem;
   }
   
   .inp {
