@@ -40,7 +40,7 @@
   .bg-small-tablet {
     position: absolute;
     height: 130%;
-    right: -60%;
+    right: -55%;
     bottom: -80%;
     z-index: -3; 
   }
