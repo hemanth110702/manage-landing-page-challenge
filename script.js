@@ -1,7 +1,19 @@
 /* header navigation */
 const hamBtn = document.querySelector('.ham');
 const closeBtn = document.querySelector('.close');
+const mobNav = document.querySelector('.mob-navigation');
 
+hamBtn.addEventListener('click', ()=>{
+  hamBtn.classList.add('none');
+  closeBtn.classList.remove('none');
+  mobNav.classList.add('flex');
+});
+
+closeBtn.addEventListener('click', ()=>{
+  closeBtn.classList.add('none');
+  hamBtn.classList.remove('none');
+  mobNav.classList.remove('flex');
+})
 
 
 
