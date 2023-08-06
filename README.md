@@ -130,7 +130,7 @@ I am enthusiastic about expanding my knowledge in designing websites that effect
 
 ## Author  
 
-- Website - (https://github.com/hemanth110702)
-- Frontend Mentor - (https://www.frontendmentor.io/profile/hemanth110702)
+- Email - [mamidihemanthkumar2002@gmail.com](mailto:mamidihemanthkumar2002@gmail.com)
+- Frontend Mentor - [@hemanth110702](https://www.frontendmentor.io/profile/hemanth110702)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
