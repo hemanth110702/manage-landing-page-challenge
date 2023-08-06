@@ -338,5 +338,6 @@
 
   .attribution {
     margin-top: 18rem;
+    background-color: var(--clr-very-dark-blue);;
   }
 }

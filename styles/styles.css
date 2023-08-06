@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  overflow: hidden;
+}
+
 .dv-none {
   display: none;
 }
@@ -228,7 +232,7 @@ header {
 }
 
 .feedback {
-  height: 90vh;
+  height: 70vh;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -248,7 +252,7 @@ header {
 }
 
 .feedback-middle-container {
-  height: 17rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
