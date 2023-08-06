@@ -34,46 +34,36 @@ Users should be able to:
 
 <table>
     <tr>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution" alt="Desktop view - Intro"/>
-      </td>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/90237447-d976-4499-8c1c-9abaa646f18a" width="100%" title="Home desktop solution" alt="Mobile view - Intro"/>
-      </td>
+        <td>
+            <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-tablet.webp" width="100%" title="Home tablet solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-desktop.webp" width="100%" title="Home desktop solution"/>
+        </td>
     </tr>
-    <tr>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/95aefa71-d86c-4686-8ca4-74130b2ec8ce" width="100%" title="Home mobile solution" alt="Desktop view - Features"/>
-      </td>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/c9e33e7a-b221-4b8a-a29c-ca4860bccba1" width="100%" title="Home desktop solution" alt="Mobile view - Features"/>
-      </td>
+        <td>
+            <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-tablet.webp" width="100%" title="Home tablet solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-desktop.webp" width="100%" title="Home desktop solution"/>
+        </td>
     </tr>
-    <tr>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/8a0772bd-5c2a-4cee-8eb3-709701178043" width="100%" title="Home mobile solution" alt="Desktop view - Feedback_1"/>
-      </td>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/a60bca38-d333-4bf0-92e1-fc7f9b6bd92c" width="100%" title="Home desktop solution" alt="Mobile view - Feeedback_1"/>
-      </td>
+        <td>
+            <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-tablet.webp" width="100%" title="Home tablet solution"/>
+        </td>
+        <td>
+            <img src="./screenshots/home-desktop.webp" width="100%" title="Home desktop solution"/>
+        </td>
     </tr>
-    <tr>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/13c90b2c-3eff-4473-907b-a1bfe50ea26e" width="100%" title="Home mobile solution" alt="Desktop view - Feedback_2"/>
-      </td>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/a60bca38-d333-4bf0-92e1-fc7f9b6bd92c" width="100%" title="Home desktop solution" alt="Mobile view - Feeedback_2"/>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/e12db225-790b-42e8-b0a7-174865c3fa80" width="100%" title="Home mobile solution" alt="Desktop view - social info"/>
-      </td>
-      <td>
-        <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/68a8e40f-ea86-47cb-8670-3a9469c5f6e4" width="100%" title="Home desktop solution" alt="Mobile view - social info"/>
-      </td>
-    </tr>
-        
 </table>
 
 ### Links
