@@ -34,12 +34,22 @@ Users should be able to:
 
 <table>
     <tr>
+      <th>Desktop View</th>
+      <th>Mobile View</th>
+    </tr>
+    <tr>
+      <th colspan="2">Intro</th>
+    </tr>
+    <tr>
       <td>
         <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution" alt="Desktop view - Intro"/>
       </td>
       <td>
         <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/90237447-d976-4499-8c1c-9abaa646f18a" width="100%" title="Home desktop solution" alt="Mobile view - Intro"/>
       </td>
+    </tr>
+    <tr>
+      <th colspan="2">Features</th>
     </tr>
     <tr>
       <td>
@@ -50,6 +60,9 @@ Users should be able to:
       </td>
     </tr>
     <tr>
+      <th colspan="2">Feedback(1)</th>
+    </tr>
+    <tr>
       <td>
         <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/8a0772bd-5c2a-4cee-8eb3-709701178043" width="100%" title="Home mobile solution" alt="Desktop view - Feedback_1"/>
       </td>
@@ -58,12 +71,18 @@ Users should be able to:
       </td>
     </tr>
     <tr>
+      <th colspan="2">Feedback(2)</th>
+    </tr>
+    <tr>
       <td>
         <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/13c90b2c-3eff-4473-907b-a1bfe50ea26e" width="100%" title="Home mobile solution" alt="Desktop view - Feedback_2"/>
       </td>
       <td>
         <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/a60bca38-d333-4bf0-92e1-fc7f9b6bd92c" width="100%" title="Home desktop solution" alt="Mobile view - Feeedback_2"/>
       </td>
+    </tr>
+    <tr>
+      <th colspan="2">Social Info</th>
     </tr>
     <tr>
       <td>
