@@ -49,7 +49,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th colspan="2" style="text-align: left;">Features</th>
+      <th>Features</th>
     </tr>
     <tr>
       <td>
