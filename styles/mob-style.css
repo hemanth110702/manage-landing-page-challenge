@@ -245,6 +245,10 @@
     background-color: var(--clr-bright-red);
   }
   
+  footer {
+    height: 43rem;
+  }
+
   .highlight {
     width: 100%; 
     height: 15rem;
