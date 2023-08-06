@@ -30,7 +30,7 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-### Screenshot
+### Screenshots
 
 <table>
     <tr>
@@ -38,7 +38,7 @@ Users should be able to:
       <th>Mobile View</th>
     </tr>
     <tr>
-      <th colspan="2">Intro</th>
+      <th colspan="2" style="text-align: left;">Intro</th>
     </tr>
     <tr>
       <td>
@@ -49,7 +49,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Features</th>
+      <th colspan="2" style="text-align: left;">Features</th>
     </tr>
     <tr>
       <td>
@@ -60,7 +60,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Feedback(1)</th>
+      <th colspan="2" style="text-align: left;">Feedback(1)</th>
     </tr>
     <tr>
       <td>
@@ -71,7 +71,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Feedback(2)</th>
+      <th colspan="2" style="text-align: left;">Feedback(2)</th>
     </tr>
     <tr>
       <td>
@@ -82,7 +82,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Social Info</th>
+      <th colspan="2" style="text-align: left;">Social Info</th>
     </tr>
     <tr>
       <td>
