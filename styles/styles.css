@@ -66,7 +66,7 @@ header {
 
 .intro {
   width: 80%;
-  height: 80vh;
+  height: 32rem;
   margin: auto;
   padding: 0rem 1rem;
   display: flex;
@@ -232,7 +232,7 @@ header {
 }
 
 .feedback {
-  height: 70vh;
+  height: 28rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -314,14 +314,14 @@ header {
 }
 
 footer {
-  height: 65vh;
+  height: fit-content;
 }
 
 .highlight {
   display: flex;  
   justify-content: space-between;
   padding: 0 9rem;
-  height: 30vh;
+  height: 10rem;
   background-color: var(--clr-bright-red);
   overflow: hidden;
 }
@@ -388,7 +388,7 @@ footer {
 }
 
 .more-info {
-  height: 23vh;
+  height: 10rem;
   padding: 3rem 9rem;
   color: white;
   background-color: var(--clr-very-dark-blue);
@@ -398,10 +398,11 @@ footer {
 }
 
 .more-info-left {
-  height: 100%;
+  height: 7.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: -2rem;
 }
 
 .more-info-logo > img {
@@ -441,10 +442,11 @@ footer {
 
 
 .more-info-right {
-  height: 80%;
+  height: 7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: -2rem;
 }
 
 .mail-to {
@@ -495,7 +497,6 @@ footer {
 
 .attribution {
   font-size: 11px; text-align: center;
-  background-color: var(--clr-very-dark-blue);
 }
 
 .attribution a {
