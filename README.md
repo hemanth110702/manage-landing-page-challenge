@@ -38,7 +38,7 @@ Users should be able to:
       <th>Mobile View</th>
     </tr>
     <tr>
-      <th colspan="2" style="text-align: left;">Intro</th>
+      <td colspan="2" style="text-align: left;">Intro</td>
     </tr>
     <tr>
       <td>
@@ -49,7 +49,7 @@ Users should be able to:
       </td>
     </tr>
     <tr>
-      <th>Features</th>
+      <th colspan="2" style="text-align: left;">Features</th>
     </tr>
     <tr>
       <td>
