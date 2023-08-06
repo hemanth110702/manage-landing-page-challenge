@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 **Desktop view - Intro**
-![dv-intro](https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9)
+ <img src="https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/dd0ecd68-50b7-4a82-9843-ca314dd2c2c9" width="100%" title="Home mobile solution"  />
 
 **Desktop view - Features**
 ![dv-features](https://github.com/hemanth110702/manage-landing-page-challenge/assets/89832451/95aefa71-d86c-4686-8ca4-74130b2ec8ce)
